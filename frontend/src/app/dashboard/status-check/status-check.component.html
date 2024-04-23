@@ -1,0 +1,133 @@
+<section>
+    <div class="container-fluid">
+        <div class="row header"> 
+            <i class="fa-solid fa-reply fa-2x col-2"(click)="backbtn()"></i>
+            <h4 class="col-5"> STORE STATUS </h4>
+            <i class="fas fa-home fa-2x col-2 offset-1"></i>
+            <i class="fas fa-power-off fa-2x col-2 "></i>
+        </div>
+    
+    <div class=" details mt-4">
+        <h4 class="col-5">GRN Details </h4>
+        <div class="dropdown offset-6">
+            <i class="fas fa-bars fa-2x"></i>
+            <div class="dropdown-content"> 
+                <a href="#">All</a>
+                <a href="#">Pending</a>
+                <a href="#">In Progress</a>
+                <a href="#">Completed</a>
+            </div>
+        </div>  
+    </div>
+    <div class="row identity mt-4">
+        <i class="  col-1 greenclr"></i>
+        <label class="col-2">Pending</label>
+        <i class=" col-1 yellowclr"></i>
+        <label class="col-3">In Progress</label>
+        <i class=" col-1 blueclr"></i>
+        <label class="col-3">Completed</label>
+
+        
+    </div>
+    
+    
+    <div *ngIf = "default" >
+        <div class="mt-5 location_tab"(click)="load()">
+            <div class="row txt">
+        <label class="mt-2 col-3">GRN No</label><br>
+        <label class="mt-2 col-3">Items</label><br>
+        <label class="mt-2 col-6">Binned Qty/Req Qty</label><br>
+        <label class="mt-2 col-3">Status</label><br>
+        </div>
+    </div>
+        <div class="location_tab1 mt-3">
+            <div class="row txt">
+            <label class="mt-2 col-3">GRN No</label><br>
+            <label class="mt-2 col-3">Items</label><br>
+            <label class="mt-2 col-6">Binned Qty/Req Qty</label><br>
+            <label class="mt-2 col-3">Status</label><br>
+            </div>
+        </div>
+            <div class="location_tab1 mt-3">
+                <div class="row txt">
+                <label class="mt-2 col-3">GRN No</label><br>
+                <label class="mt-2 col-3">Items</label><br>
+                <label class="mt-2 col-6">Binned Qty/Req Qty</label><br>
+                <label class="mt-2 col-3">Status</label><br>
+                </div>
+            </div>
+                <div class="location_tab1 mt-3">
+                    <div class="row txt">
+                    <label class="mt-2 col-3">GRN No</label><br>
+                    <label class="mt-2 col-3">Items</label><br>
+                    <label class="mt-2 col-6">Binned Qty/Req Qty</label><br>
+                    <label class="mt-2 col-3">Status</label><br>
+                    </div>
+                </div>
+            </div>
+    
+       <div *ngIf = "flag">
+        <div class="product_tab mt-5">
+            <div class="row txt1">
+            <label class="mt-2 col-4">GRN No</label><br>
+            <label class="mt-2 col-4">Items</label><br>
+            <label class="mt-2 col-4">Type</label><br>
+            <label class="mt-2 col-3">Status</label><br>
+            <label class="mt-2 col-6 offset-3">Binned Qty/Req Qty</label><br>
+            </div>
+       </div>
+            <div class=" product_tab mt-3">
+                <div class="row txt">
+                <label class="mt-2 col-4">Item Code</label><br>
+                <label class="mt-2 col-4">Item Group</label><br>
+                <label class="mt-2 col-4">Item Name</label><br>
+            </div>
+            <div class="row txt">
+                <label class=" mt-2 ">GRN Qty</label><br>
+            </div>
+            <div class="row txt">
+                <label class="mt-2 ">Scanned Qty</label><br>
+            </div>
+                </div>
+                <div class=" product_tab mt-3">
+                    <div class="row txt">
+                    <label class="mt-2 col-4">Item Code</label><br>
+                    <label class="mt-2 col-4">Item Group</label><br>
+                    <label class="mt-2 col-4">Item Name</label><br>
+                </div>
+                <div class="row txt">
+                    <label class="mt-2 ">GRN Qty</label><br>
+                </div>
+                <div class="row txt">
+                    <label class="mt-2 ">Scanned Qty</label><br>
+                </div>
+                    </div>
+                    <div class=" product_tab mt-3">
+                        <div class="row txt">
+                        <label class="mt-2 col-4">Item Code</label><br>
+                        <label class="mt-2 col-4">Item Group</label><br>
+                        <label class="mt-2 col-4">Item Name</label><br>
+                    </div>
+                    <div class="row txt">
+                        <label class=" mt-2 ">GRN Qty</label><br>
+                    </div>
+                    <div class="row txt">
+                        <label class="mt-2 ">Scanned Qty</label><br>
+                    </div>
+                        </div>
+                        <div class=" product_tab mt-3">
+                            <div class="row txt">
+                            <label class="mt-2 col-4">Item Code</label><br>
+                            <label class="mt-2 col-4">Item Group</label><br>
+                            <label class="mt-2 col-4">Item Name</label><br>
+                        </div>
+                        <div class="row txt">
+                            <label class="mt-2 ">GRN Qty</label><br>
+                        </div>
+                        <div class="row txt">
+                            <label class="mt-2">Scanned Qty</label><br>
+                        </div>
+                            </div>
+                        </div>
+                    </div> 
+                        </section>

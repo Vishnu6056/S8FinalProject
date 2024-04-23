@@ -1,0 +1,35 @@
+.header
+{
+    height: 8vh;
+    display: flex;
+    margin-top: 3%;
+    color: #128EB1;
+    
+    
+}
+
+.content1,.content2
+{
+    margin-top: 8%;
+    margin-left: 10px;
+    height: 35vh;
+    text-align: center;
+    /* flex-wrap: nowrap; */
+}
+.content
+{
+  height: 70vh; 
+  justify-content: center;
+  color: #128EB1;
+  /* font: Century Gothic;
+  font-weight: bold; */
+  
+}
+.box
+{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  height: 28vh;
+  margin-right: 2%;
+  margin-left: 2%;
+}
